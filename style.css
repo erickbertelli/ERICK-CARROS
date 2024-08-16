@@ -1,0 +1,88 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    color: #000000
+ }
+        body {
+            background-color: #000000;
+            color: #ffd000;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .cabecalho {
+            background-color: #ffd000;
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-around;
+            align-items: center ;
+            padding: 24px 0;
+        }
+
+        .cabecalho-imagem{
+            width: 10%;
+        }
+        h1 {
+            background-color: #ffd000;
+            color: #000000;
+            text-align: center;
+        }
+         h2 { color: #000000;
+            background-color: #ffd000;
+           text-align: center;
+
+         }
+         h3 { color: #000000;
+            background-color: #ffd000;
+           text-align: center;}
+         p {
+            background-color: #000000;
+             color: #ffffff;
+             font-size: 20px;
+
+
+         }
+        ul {
+            list-style-type: square;
+        }
+        img {  max-width: 100%;
+            height: auto;
+        "
+        }
+
+        image{ }
+        header {
+            background-color: #ffd000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .marca-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .marca {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .marca img {
+            width: 100px; /* Define a largura da imagem */
+            height: auto; /* Mantém a proporção da altura */
+            border-radius: 8px; /* Adiciona bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para profundidade */
+            transition: transform 0.3s ease; /* Adiciona efeito de transição */
+        }
+
+        .marca img:hover {
+            transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+        }
+
+        .marca p {
+            margin: 10px 0 0;
+        }
+  
